@@ -1,0 +1,132 @@
+body{
+background-color:beige;
+font: 15px/1.5 Arial, Helvetica, sans-serif;
+background-image:url('/8ac5fd6a188dfbdbf7bf00bf683fd79.jpg');
+background-repeat:no-repeat;
+display:cover;
+}
+header {
+background:grey;
+color:black;
+min-height:70px;
+padding-top:30px;
+border-bottom: black 7px solid;
+border-left: black 4px solid;
+border-right: black 4px solid;
+border-top: black 4px solid;
+border-radius:5px;
+}
+
+nav ul li{
+display:inline-block;
+margin-left:25px;
+text-align: center;
+color: black;
+margin-top:0px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:20px;
+font-weight:bolder;
+flex: 1;
+text-align: right;
+cursor: pointer;
+align-items:top; 
+}
+
+nav ul li a{
+text-decoration: none;
+color: black;
+font-family:sans-serif;
+font-size:20px;
+font-weight:bolder;
+scroll-behavior:
+}
+
+#navbar img {
+display:inline-block;
+width: 40px;
+height: 40px;
+margin:1px;
+margin-left:1px;
+border-radius:40px;
+
+
+}
+a:hover{
+color:orange;
+}
+a:hover:after{
+    color:red;
+    transform:scaleX(1);
+    transition:transform 0.3s ease-out;
+}
+
+.h4{
+display: inline-block;
+margin-left:30px;
+}
+nav img{
+margin-left: 30px;
+border-radius: 45px;
+transition: transform 0.6s;
+
+
+}
+img:hover{
+transform:translateY(-10px);
+
+}
+
+.pit{
+margin-left:35px;
+font-family: Cambria,Times, 'Times Roman', serif;
+font-weight:bold;
+font-size:20px;
+}
+
+footer{
+padding:20px;
+margin-top:20px;
+color:#ffffff;
+background-color:#e8491d;
+text-align: center;
+}
+.lorem{
+font-family:Serif;
+font-size: 25px;
+text-align: center;
+
+}
+.butt{
+height: 40px;
+width: 60px;
+background-color:green;
+color:white;
+text-decoration:none;
+font-family:inherit;
+border-radius: 34px;
+text-align:center;
+transition:transform 0.6s;
+}
+butt:hover{
+transform:translateY(-10px);
+}
+.h1{
+color:red;
+}
+.drink{
+font-family:Helvetica;
+font-size: 21px;
+font-weight: bolder;
+color: dimgrey;
+height: 20px;
+}
+
+.hol{
+text-align:center;
+}
+.joe{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight:bolder;
+font-size: 22px;
+text-align: center;
+}
